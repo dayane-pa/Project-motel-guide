@@ -67,7 +67,7 @@ header div#search div{
     height: 24px;
     top: 0;
     right: 0;
-    transform: translate(-30%,7%);
+    transform: translate(-30%,12%);
     border-radius: 50px;  
     border: 1.5px solid rgb(143, 143, 143);
 }
