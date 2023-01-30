@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/tiny-slider.min.css">
+    <script src="javascript.js"></script>
+
+
+    <title>Motel Guide</title>
+
+</head>
+
+<body>
+    <header>
+        <div id="search">
+            <img src="imagens/header/search/🦆 icon _search outline_.png" alt="search">  
+            <input type="text" id="search boxes" placeholder="Em que lugar?"> 
+            <div><img src="imagens/header/search/🦆 icon _filter_.png" alt="filter"></div>
+        </div>
+        <div id="container">
+            <div class="my-slider">
+            <div><a href="#"><img src="imagens/header/pre-filters/Banheira.png" alt=""></a></div>
+            <div><a href="#"><img src="imagens/header/pre-filters/Garagem.png" alt=""></a></div>
+            <div><a href="#"><img src="imagens/header/pre-filters/Secador de cabelo.png" alt=""></a></div>
+            <div><a href="#"><img src="imagens/header/pre-filters/Sauna.png" alt=""></a></div>
+            <div><a href="#"><img src="imagens/header/pre-filters/Bar.png" alt=""></a></div>
+            <div><a href="#"><img src="imagens/header/pre-filters/Piscina.png" alt=""></a></div>
+            <div><a href="#"><img src="imagens/header/pre-filters/TV.png" alt=""></a></div>
+            <div><a href="#"><img src="imagens/header/pre-filters/Jardim.png" alt=""></a></div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section>
+            <picture><img src="#" alt="#">
+            </picture>
+            <div class="motel-name">
+                <h1>Nome Motel</h1>
+                <p class="district">Bairro -Distrito</p>
+                <p class="distance">4.7KM</p>
+            </div>
+
+            <div class="view-suit">
+                <a href="#"> 
+                    <picture><img src="imagens/motel/arrow-right.png" alt="arrow"></picture>
+                    <p> Ver Suites</p>
+               </a>
+            </div>
+        </section>
+
+        <section>
+            <picture><img src="#" alt="#">
+            </picture>
+            <div class="motel-name">
+                <h1>Nome Motel</h1>
+                <p class="district">Bairro -Distrito</p>
+                <p class="distance" >4.7KM</p>
+            </div>
+
+            <div class="view-suit">
+                <a href="#">
+                <picture><img src="imagens/motel/arrow-right.png" alt="arrow"></picture>
+                    <p> Ver Suites</p>
+                </a>
+            </div>
+
+        </section>
+
+
+    </main>
+
+    <footer>
+        <nav>
+            <a href="#"><li> Explorar</li></a>
+            <a href=""><li>Favoritos</li></a>
+            <a href=""><li>Mapa</li></a>
+            <a href=""><li>Minha Conta</li></a>
+        </nav>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
+
+        <script>
+            var slider =tns({
+               "container": '.my-slider',
+               "items": 6,
+                "slideBy": "page",
+                "mouseDrag": true,
+                "swipeAngle": false,
+                "speed": 400,
+                "controls":false,
+                
+                 
+            })
+        </script>
+    
+</body>
+</html>
