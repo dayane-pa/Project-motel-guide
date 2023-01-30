@@ -3,8 +3,6 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.css">
 
 
-
-
 :root{
 
 }
@@ -21,7 +19,6 @@ html body{
     height: 100vh;
     width: 100vw;
 }
-
 
 header{
     height: 114px;
@@ -56,7 +53,7 @@ header div#search >img{
 header div#search input{
     background-color:transparent;
     border: 0px;
-    width: 150px;
+    width: 60vw;
     padding: 2px;
     margin-left: 5px;
     outline: 0;
@@ -82,7 +79,7 @@ header div#search div > img{
 }
 header div#container{
     width: 245px;
-    height: 70px;
+    height: 60px;
     overflow: hidden;
     position: relative;
 }
@@ -97,11 +94,10 @@ header #container .my-slider>div{
     display:inline-block;
 }
 header #container img{
-    width: 23px;
-    height: 30px;
+    width: 30px;
+    height: 34px;
     margin-left: 0px;
 }
-
 
 main{
     background-color:transparent;
@@ -115,7 +111,7 @@ main{
 }
 main section{
     width: 90%;
-    height: 170px;
+    height: 230px;
     background-color: rgb(249, 249, 250);
     margin-bottom: 15px; 
     border-radius: 12px;
@@ -152,23 +148,27 @@ main section .distance{
     border-radius: 10px;
 }
 main section .view-suit{
+    
     position: absolute;
-    width: 50px;
+    text-align: center;
+    margin-left: 0%;
+    width: 30vw;
     bottom: 5%;
     left: 85%;
     transform: translate(-50%, 0%);
 }
 main section .view-suit p{
     font-size: 12px;
+
 }
 main section .view-suit picture{
-    margin-left: 12px;  
+    margin-left: 5px; 
+
 }
 main section .view-suit a{
     color: rgb(88, 88, 88);
     text-decoration: none;
 }
-
 
 
 footer{
@@ -181,7 +181,6 @@ footer{
     left: 50% ;
     transform: translate(-50%, -0%);
     position: fixed;
-    
 }
 footer nav {
     padding-top: 18px;
