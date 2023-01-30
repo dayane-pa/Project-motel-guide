@@ -96,14 +96,18 @@ header #container .my-slider>div{
 header #container img{
     width: 18px;
     height: 24px;
-    margin-left: 10px;
+    margin-left: 12px;
+    
 }
 header #container p, a{
     color: black;
     text-decoration: none;
-    font-size: 0.8em;
+    margin-right: 1px;
+    font-size: 1.5vh;
     text-align: center;
+    font-weight: bold;
 }
+
 header .arrow-left{
     float: left;
     position: absolute;
@@ -117,7 +121,7 @@ header  .arrow-left >img{
 header .arrow-right{
     position: absolute;
     float: right;
-    top:55%;
+    top:54%;
     right: 7%;
     transform: translate(0%, 50%);
 }
@@ -175,7 +179,6 @@ main section .distance{
     border-radius: 10px;
 }
 main section .view-suit{
-    
     position: absolute;
     text-align: center;
     margin-left: 0%;
@@ -186,11 +189,9 @@ main section .view-suit{
 }
 main section .view-suit p{
     font-size: 12px;
-
 }
 main section .view-suit picture{
     margin-left: 5px; 
-
 }
 main section .view-suit a{
     color: rgb(88, 88, 88);
@@ -210,23 +211,26 @@ footer{
     position: fixed;
 }
 footer nav {
-    padding-top: 18px;
     width:100%;
     text-align: center;
+    display: block;
 }
 footer nav ul{
-    display:inline-block;
+    display: block;
 }
 footer nav ul li{
-    display:inline;
-    margin: 2.8vh;
+    display:inline-block;
+    margin-top: 1.5vh;
+    padding-left: 2vh;
+    padding-right: 2vh;
 }
 footer nav img{
-    width: 9vw;
+    width: 5.9vw;
     min-width: 15px;
-    max-width: 70px;
+    max-width: 20px;
 }
-footer nav ul li.favorites  img{
+
+/*footer nav ul li.favorites  img{
     width:9vw;
 }
 footer nav ul li.my-account  img{
