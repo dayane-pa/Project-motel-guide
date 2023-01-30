@@ -184,7 +184,7 @@ footer{
     
 }
 footer nav {
-    padding-top: 12px;
+    padding-top: 18px;
     width:100%;
     text-align: center;
 }
@@ -193,13 +193,18 @@ footer nav ul{
 }
 footer nav ul li{
     display:inline;
-    margin: 2.5vh;
+    margin: 2.8vh;
 }
-
 footer nav img{
-    width: 8vw;
-    min-width: 10px;
-   
+    width: 9vw;
+    min-width: 15px;
+    max-width: 70px;
+}
+footer nav ul li.favorites  img{
+    width:9vw;
+}
+footer nav ul li.my-account  img{
+    width:11vw;
 }
 
 
