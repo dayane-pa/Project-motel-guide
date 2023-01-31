@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/tiny-slider.min.css">
+    <!--  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/tiny-slider.min.css">  -->
     <script src="javascript.js"></script>
 
 
@@ -18,14 +18,14 @@
         <div id="search">
             <img src="imagens/header/search/🦆 icon _search outline_.png" alt="search">  
             <input type="text" id="search boxes" placeholder="Em que lugar?"> 
-            <div><img src="imagens/header/search/🦆 icon _filter_.png" alt="filter"></div>
+            <a href="#"><div><img src="imagens/header/search/🦆 icon _filter_.png" alt="filter"></div></a>
         </div>
         <div id="container">
             <div class="my-slider">
 
             <div>
                 <a href="#">
-                <img src="imagens/header/pre-filters/banheira.png" alt="">
+                <picture><img src="imagens/header/pre-filters/banheira.png" alt=""></picture>
                 <p>Banheira</p>
             </a></div>
             <div>
@@ -119,11 +119,11 @@
                 <p>Favoritos</p>
                 </a></li>
             <li class="map">
-                <a href="#"><img src="imagens/down menu/map.png" alt="">
+                <a href="#"><img class="map" src="imagens/down menu/map.png" alt="">
                 <p>Mapa</p>
                 </a></li>
             <li class="my-account">
-                <a href="#"><img src="imagens/down menu/avatar.png" alt="">
+                <a href="#"><img  src="imagens/down menu/avatar.png" alt="">
                 <p>Minha Conta</p>
                 </a></li>
             </ul>
@@ -135,7 +135,7 @@
         <script>
             var slider =tns({
                "container": '.my-slider',
-               "items": 6,
+               "items": 5,
                 "slideBy": "page",
                 "mouseDrag": true,
                 "swipeAngle": false,
