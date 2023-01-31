@@ -233,16 +233,17 @@ footer nav ul{
     display: block;
     position: absolute;
     text-align: center;
-    padding-top: 17px;
+    padding-top: 5px;
    
     
 }
 footer nav ul li{
     display:inline-block;
     text-align: center;
-    width: 18vw;
-    margin-left:1%;
-    margin-right:1%;  
+    width: 20vw;
+   
+    
+    background-color: blue; 
 }
 footer nav img{
     width: 10vw;
