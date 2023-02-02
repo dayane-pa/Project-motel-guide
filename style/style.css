@@ -2,9 +2,10 @@
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.css">
 
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap');
 
 :root{
-
+    
 }
 
 *{
@@ -18,6 +19,8 @@ html body{
     background-color: rgb(223, 220, 220);
     height: 100vh;
     width: 100vw;
+    font-family: 'Inter', sans-serif;
+
 }
 
 header{

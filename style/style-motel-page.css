@@ -56,8 +56,9 @@ main .main-information .information-motel h1{
     width: 148px;
 }
 main .main-information .information-motel > p{
-    font-size: 13px;
+    font-size: 11px;
     position: absolute;
+    color: #707070;
     bottom: 2px;
     left: 20px;
 }
@@ -87,12 +88,13 @@ main .details-suit .information-suit{
     padding-left: 20px;
 }
 main .details-suit .information-suit  p{
-    font-size: 3vw;
+    font-size: 2.9vw;
     margin-bottom: 5px;
    
 }
 main .details-suit .information-suit h1{
-    font-size: 3.3vw;
+    font-size: 3.5vw;
+    font-weight:700;
 }
 
 main .details-suit .information-suit .amenities-suit{
