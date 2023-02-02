@@ -1,2 +1,59 @@
-@charset "UTF-8"
+@charset "UTF-8";
+
+
+
+
+main section{
+    width: 80%;
+    height: auto;
+    margin: auto;
+    top:30%;
+    left: 0%;
+    transform: translate(0%,-50%);
+    overflow: hidden;
+    box-shadow: none;
+    background-color: transparent;
+}
+main section h1{
+    font-size: 3.6vw;
+    margin-top:12px;
+    margin-bottom: 30px;   
+}
+main section form input{
+    width: 99%;
+    height:35px ;
+    border-radius: 16px;
+    background-color:D9D9D9;
+    border: 0;
+    margin-bottom: 10px;
+    padding-left: 15px;
+    font-size: 15px;
+    margin-left: 2px;
+}
+main section form input::placeholder{
+    color: black;
+}
+main section form input#continued{
+    padding-left: 0px;
+    margin-top: 30px;
+}
+main section form div{
+    height: 30px;
+    margin-bottom: 2px;
+
+}
+main section form div input#discount,input#term{
+    width: 15px;
+    margin-left: 10px;
+}
+main section form div label{
+    margin-left: 10px ;
+    margin-top: 12px;
+    position: absolute;
+    font-size: 11px;
+    white-space:normal;
+}
+main section form div label >a{
+    font-weight: 800;
+}
 

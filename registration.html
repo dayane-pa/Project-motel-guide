@@ -9,38 +9,29 @@
 </head>
 <body>
 
+ <main>
     <section>
         <h1>Cadastrar</h1>
-        <div>
-            <form action="#"></form method="post">
-                <div>
-                    <input type="text" name="name" id="name">
-                </div>
-                <div>
-                    <input type="number" name="" id="">
-                </div>
-                <div>
-                   <input type="number" name="" id="">
-                </div>
-                <div>
-                    <input type="text" name="name" id="name">
-                </div>
-                <div>
-                    <input type="email" name="" id="">
-                </div>
-                <div>
-                    <input type="email" name="" id="">
-                </div>
+        
+            <form action="#" method="post">
 
-                <div>
-                    <input type="password" name="current-password" id="">
-                </div>
-                <div>
-                    <input type="password" name="new-password" id="">
-                </div>
+                    <input type="text" name="name" id="name" placeholder="Nome Completo" autocomplete="on">
+                
+                    <input type="number" name="cpf" id="cpf" placeholder="CPF" autocomplete="on">
+                
+                    <input type="number" name="cep" id="cep" placeholder="CEP">
+                
+                    <input type="email" name="email" id="email" placeholder="E-mail">
+             
+                    <input type="email" name="confirm-email" id="confirm-email" placeholder="Confirme o E-mail">
+               
+                    <input type="password" name="current-password" id="current-password" placeholder="Senha">
+                
+                    <input type="password" name="new-password" id="new-password" placeholder="Confirme a Senha">
+               
                 <div>
                     <input type="checkbox" name="discount" id="discount">
-                    <label for="discount">Aceito receber descontos e promoçoes</label>
+                    <label for="discount" id="">Aceito receber descontos e promoçoes.</label>
                 </div>
                 <div>
                     <input type="checkbox" name="term" id="term">
@@ -48,12 +39,10 @@
                                      <a href="#">políticas de privacidade.</a>
                     </label>
                 </div>
-
-        </div>
+                <input type="button" value="Continuar" id="continued">
+            </form>
     </section>
-
-
-
+</main>
 
     <footer>
         <nav>
