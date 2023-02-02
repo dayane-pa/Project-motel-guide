@@ -17,9 +17,9 @@ header h1{
     float: left;
 }
 main{
-    margin-top: -40px;
-    background-color: blue;
-    
+    top:90px;
+    left: 50% ;
+    transform: translate(-50%, 0%); 
 }
 main footer{
     display: block;
