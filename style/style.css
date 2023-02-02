@@ -150,8 +150,8 @@ main{
     transform: translate(-50%, 0%);
 }
 main section{
-    width: 90%;
-    height: 230px;
+    width: 95%;
+    height: 250px;
     background-color: rgb(249, 249, 250);
     margin-bottom: 15px; 
     border-radius: 12px;
@@ -249,7 +249,7 @@ footer nav img{
     max-width: 35px;
 }
 footer nav li p{
-    font-size:3vw ;
+    font-size:2vw ;
     height: 15px;
     width: 20vw;
        
