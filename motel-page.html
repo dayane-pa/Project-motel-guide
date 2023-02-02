@@ -13,8 +13,13 @@
 
     <section class="main-information">
 
-        <img src="imagens/page-motel/arrow-circle-left.png" alt="seta para esquerda">
-        <picture class="photo-motel"><img src="#" alt="imagem principal"></picture>
+        <button onclick="goBack()" >
+            <img src="imagens/page-motel/arrow-circle-left.png" alt="seta para esquerda"></a>
+        </button>
+
+        <picture class="photo-motel">
+            <img src="#" alt="imagem principal">
+        </picture>
 
         <div class="information-motel">
 
@@ -73,5 +78,10 @@
         </div>
     </section>
     </main>
+    <script>
+        function goBack(){
+            window.history.back()
+        }
+    </script>
 </body>
 </html>

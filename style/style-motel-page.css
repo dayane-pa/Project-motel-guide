@@ -12,10 +12,10 @@ main section.main-information{
     position: relative;
     overflow: hidden;
 }
-main section.main-information > img{
+main section.main-information button img{
     width: 22px;
-    margin-top: 13px;
-    margin-left: 15px;
+    margin-left: 10px;
+    position: absolute;
 }
 main .main-information .information-motel{
     position: absolute;
