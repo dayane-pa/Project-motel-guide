@@ -36,6 +36,7 @@ main section form input::placeholder{
 main section form input#continued{
     padding-left: 0px;
     margin-top: 30px;
+    pointer-events:stroke;
 }
 main section form div{
     height: 30px;
